@@ -1,0 +1,630 @@
+﻿.html,body{width: 100%;height: 100%;float: left;margin:0px;padding:0px;}
+/*InicioFiltroTopo*/
+#BtnNovo{width: 55px;   left:165px;  }
+#BtnSalvar{width: 55px;   left:167px;  }
+#BtnSalvarNovo{width: 85px;   left:171px;  }
+#BtnExcluir{width: 55px;   left:172px;  }
+#Ddlescolha{width: 110px;left:180px;  font-family:Arial, Sans-Serif; font-size:12px;}
+#BtnEscolha{width: 63px; left:180px;  }
+
+#BtnCadastroOtimizado{position: absolute; width: 20px;  left:175px;   top:0px; }
+#BtnImportarXMLChave{position: absolute; width: 120px;  left:205px;   top:2px;}
+#BtnCadastrarNovaNota{position: absolute; width: 130px;  left:330px;   top:2px;}
+#BtnImportarXML{position: absolute; width: 80px;  left:465px;   top:2px;}
+#BtnOpcoesFiltro{position: absolute; width: 100px;  left:550px;   top:2px;}
+#BtnRetirarInserirNF{position: absolute; width: 80px;  left:655px;   top:2px;}
+#BtnSair{position: absolute; width: 55px;  left:740px; top:2px; }
+/*FimFiltroTopo*/
+
+#DivLblMensagem{	position: absolute;	left: 6px;	top: 25px;  height: 15px; width: 98.0%;	font-weight: bold;	text-align: center;	}
+#LblMensagem{	font-family:Arial, Sans-Serif; font-size:13px;}
+
+#DivSelecionaTipoGeracaoCte {
+	position: absolute;
+	left: 25%;
+	top: 40px;
+	width: 98.2%;
+}
+#DivNotaFiscal {
+	position: absolute;
+	left: 6px;
+	top: 62px;
+	height: 15px;
+	width: 98.2%;
+	font-weight: bold;
+	text-align: center;
+	background-color: #6699CC;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+#LblNotasFiscaisDisponiveis{	color: #fff;}
+
+#Notas {width: 98.0%; height: 175px; top:77px; left: 6px; position:absolute; border:1px solid #CCCCCC; OVERFLOW-Y: auto; background-color:White; z-index:900; }
+#DivCTeTerceiroDisponiveis {
+	width: 98.0%;
+	height: 175px;
+	top: 77px;
+	left: 6px;
+	position: absolute;
+	border: 1px solid #CCCCCC;
+	OVERFLOW-Y: auto;
+	background-color: White;
+	z-index: 900;
+} 
+
+#DivAddNotasSelecionadas{	position: absolute;	left: 6px;	top: 255px;  height: 15px; width: 98.0%;	font-weight: bold;	text-align: center; }
+#BtnAddNotasSelecionadas{	position: absolute; 	left: 380px;}
+
+#BtnRemNotasSelecionadas{position: absolute ;top: 255px;left: 750px;float: left;}
+
+#DivNotasFiscaisSelecionadas{	position: absolute;	left: 6px;	top: 280px;  height: 15px; width: 98.2%;	font-weight: bold;	text-align: center;	background-color: #6699CC; border-top-left-radius: 10px; border-top-right-radius: 10px;}
+#LblNotasFiscaisSelecionadas{	color: #fff;}
+
+#DivGridNotasFiscaisSelecionadas { width: 98.0%; height: 175px; top:295px; left: 6px; position:absolute; border:1px solid #CCCCCC; OVERFLOW-Y: auto; background-color:White; z-index:900; }
+#DivCTeTerceiroSelecionadas {
+	width: 98.0%;
+	height: 175px;
+	top: 295px;
+	left: 6px;
+	position: absolute;
+	border: 1px solid #CCCCCC;
+	OVERFLOW-Y: auto;
+	background-color: White;
+	z-index: 900;
+} 
+
+#DivProgramacao {position: relative;left: 6px;top: 475px; width: 98.0%; height: 185px;border: 1px solid #c0c0c0;}
+
+#LblTipoTransporte { position: absolute; left: 30px; top: 485px; }  
+#DdlIdTipoTransporte_TipoTransporte_ConhecimentoOtimizado { position: absolute; left: 130px; top: 483px; width: 273px; }
+
+#lblSerieCTRC { position: absolute; left: 423px; top: 485px; } 
+#TxtSerieCTRC_ConhecimentoOtimizado { position: absolute; left: 473px; top: 483px; width: 28px; } 
+
+#LblTipoServico { position: absolute; left: 531px; top: 485px; } 
+#DdlTipoServicoCte_ConhecimentoOtimizado { position: absolute; left: 610px; top: 483px; width: 170px; } 
+
+#LblCodColetaCTRC { position: absolute; left: 30px; top: 511px; }  
+#TxtCodMunicipio_MunicipioColeta_ConhecimentoOtimizado{ position: absolute; left: 130px; top: 510px; width: 78px; } 
+#TxtDescMunicipio_MunicipioColeta_ConhecimentoOtimizado { position: absolute; left: 215px; top: 510px; width: 258px; } 
+#TxtUF_MunicipioColeta_ConhecimentoOtimizado{ position: absolute; left: 457px; top: 510px; width: 20px; }  
+#LkbAtualizaColeta{ position: absolute;top: 510px;left: 482px;float: left; }
+#LkbEditarColeta{ position: absolute;top: 511px;left: 502px;float: left }
+
+#FobCif { position: absolute; left: 548px; top: 510px; width: 240px; } 
+
+#LblCodPagador{ position: absolute; left: 30px; top: 537px;}
+#TxtCodCliente_Pagador_ConhecimentoOtimizado{ position: absolute; left: 130px; top: 536px; width: 78px;}
+#TxtNome_Pagador_ConhecimentoOtimizado{ position: absolute; left: 215px; top: 536px; width: 410px; }
+#TxtCnpjCpf_Pagador_ConhecimentoOtimizado{ position: absolute; left: 512px; top: 536px; width: 115px; }
+#LkbAtualizarPagador{ position: absolute; left: 632px; top: 536px; width: 19px; }
+#LkbEditarPagador{ position: absolute; left: 653px; top: 537px; width: 19px; }
+
+#LblVeiculo { position: absolute; left: 30px; top: 563px; } 
+#TxtCodVeiculo_Veiculo_ConhecimentoOtimizado { position: absolute; left: 130px; top: 562px; width: 78px; } 
+#TxtPlaca_Veiculo_ConhecimentoOtimizado { position: absolute; left: 215px; top: 562px; width: 120px; }  
+#LkbAtualizarVeiculo{position: absolute;top: 562px;left: 341px;float: left}
+#LkbEditarVeiculo{position: absolute;top: 563px;left: 361px;float: left}
+
+#LblPesoCubadoTotal {position: absolute; left: 590px; top: 563px; }
+#TxPTotalPesoCubadoNF_ConhecimentoOtimizado {position: absolute; left: 650px; top: 562px; width: 100px; }
+#BtnComporPesoCubadoTotal {position: absolute; left: 753px; top: 562px; }
+
+#LblAcoes { position: absolute; left: 30px; top: 586px; } 
+#DivAcoes{ position: absolute; left: 125px; top: 584px; } 
+
+#LblRelacionarViagem { position: absolute; left: 444px; top: 586px; } 
+#TxtNumViagem_ConhecimentoOtimizado{ position:absolute;left:532px;top:585px; width:80px; }
+#LkbTabelaFrete {position: absolute; left:590px; top:635px;} 
+
+#LblProgramacao { position: absolute; left: 30px; top: 629px; } 
+#TxtNumProgramacao_ConhecimentoOtimizado { position: absolute; left: 130px; top: 629px; width: 78px; } 
+
+#DivGerarCTRB{ position:absolute;left:390px;top:563px;z-index: 10; }
+
+#DivUtilizaTabelaFrete{ position:absolute;left:568px;top:563px;z-index: 10; }
+
+#LblRotaCTe { position: absolute; left: 453px; top: 588px; }  
+#DdlIdRotaCTe_RotaCTe_ConhecimentoOtimizado { position: absolute; left: 482px; top: 585px; width: 150px; }
+#LkbAtualizarRotaCTe { position: absolute; left: 632px; top: 583px;}
+#LkbEditarRotaCTe { position: absolute; left: 650px; top: 584px;}
+
+#pnlTipoOperacaoTransporte{	position: absolute;	top: 605px;  height: 23px; width: 760px;}
+#LblTipoOperacaoTransporte { position: absolute; left: 28px; top: 3px; }  
+#DdlTipoOperacaoTransporte_ConhecimentoOtimizado { position: absolute; left: 130px; top: 0px; width: 100px; }
+
+#LblTotalPallets { position: absolute; left: 250px; top: 3px; }  
+#TxtTotalPallets_ConhecimentoOtimizado { position: absolute; left: 332px; top: 2px; width: 50px; }
+
+#DivBtnGerarConhecimento{	position: absolute;	left: 654px;	top: 589px;  height: 15px;}
+#BtnAddComponente{ font-weight: bold;	text-align: center; color:Blue;}
+
+#LblUltimoUsuario{position: absolute;left: 10px;top: 488px; font-size:xx-small}
+#LblDescUltimoUsuario{position: absolute;left: 100px;top: 488px;font-size:xx-small}
+
+.BotaoToolboxOwer{position:relative;left:23%;font-family:Arial, Sans-Serif;font-size:71%;}
+#BtnAbortarContainer { position:absolute; Left: 696px; Top: 260px; font-size:11px; width:70px; }
+#AutoCompleteExtender11_completionListElem { visibility:hidden; } 
+#AutoCompleteExtender12_completionListElem { visibility:hidden; } 
+#AutoCompleteExtender13_completionListElem { visibility:hidden; } 
+#AutoCompleteExtender17_completionListElem { visibility:hidden; } 
+
+/* CSS DO CADASTRO DA NOTA */
+#DivCadastroNotas{	position: absolute;	left: 6px;	top: 40px;  height: 15px; width: 98.0%;	font-weight: bold;	text-align: center;	background-color: #6699CC;}
+#LblCadastroNotas{	color: #fff;}
+
+#DivPnlCadastroNotas { width: 97.7%; height: 561px; top:55px; left: 6px; position:absolute; border:1px solid #CCCCCC; OVERFLOW-Y: auto; z-index:900; } 
+
+#LblFilial							{ position: absolute; left: 15px; top: 80px; z-index:5000;}
+#DdlIdFilial_Filial_NotaFiscal							{ position: absolute; left: 115px; top: 79px; width: 326px; z-index:5000;}
+#LkbAtualizarFilial				{ position: absolute; left: 445px; top: 79px; width: 19px; z-index:5000;}
+#LkbEditarFilial					{ position: absolute; left: 466px; top: 79px; width: 19px; z-index:5000;}
+
+#LblCodRemetente{ position: absolute; left: 15px; top: 106px; z-index:5000;}
+#TxtCodCliente_Remetente_NotaFiscal{ position: absolute; left: 115px; top: 105px; width: 78px; z-index:5000;}
+#TxtNome_Remetente_NotaFiscal{ position: absolute; left: 203px; top: 105px; width: 410px; z-index:5000;}
+#TxtCnpjCpf_Remetente_NotaFiscal{ position: absolute; left: 500px; top: 105px; width: 115px; z-index:5000; OVERFLOW-Y: auto; }
+#LkbAtualizarRemetente{ position: absolute; left: 620px; top: 105px; width: 19px; z-index:5000; OVERFLOW-Y: auto; }
+#LkbEditarRemetente{ position: absolute; left: 640px; top: 106px; width: 19px; z-index:5000; OVERFLOW-Y: auto; }
+
+#LblCodDestinatario{ position: absolute; left: 15px; top: 132px; z-index:900;}
+#TxtCodCliente_Destinatario_NotaFiscal{ position: absolute; left: 115px; top: 131px; width: 78px; z-index:900;}
+#TxtNome_Destinatario_NotaFiscal{ position: absolute; left: 203px; top: 131px; width: 410px; z-index:900;}
+#TxtCnpjCpf_Destinatario_NotaFiscal{ position: absolute; left: 500px; top: 131px; width: 115px; z-index:900;}
+#LkbAtualizarDestinatario{position: absolute; left:620px; top: 131px; float: left; z-index:900;OVERFLOW-Y: auto; }
+#LkbEditarDestinatario{position: absolute; left: 640px; top: 132px; float: left; z-index:900;OVERFLOW-Y: auto; }
+
+#LblTipoNota { position:absolute; Left: 15px; Top: 158px; z-index:900;} 
+#rdTipoNota { position:absolute; Left: 115px; Top: 156px;  border: 1px solid #CCCCCC; width: 200px; text-align: center; z-index:900;} 
+
+#LblNF { position:absolute; Left: 15px; Top: 184px; z-index:900;}  
+#TxtNumeroNF_NotaFiscal { position:absolute; Left: 115px; Top: 183px; width:80px; z-index:900;}
+#LkbAtualizarNota{position: absolute; left:200px; top: 183px; float: left; z-index:900;OVERFLOW-Y: auto; }
+#LkbEditarNota{position: absolute; left: 220px; top: 183px; float: left; z-index:900;OVERFLOW-Y: auto; }
+
+#LblSerie { position:absolute; Left: 264px; Top: 184px; z-index:900;} 
+#TxtSerieNF_NotaFiscal { position:absolute; Left: 304px; Top: 183px; width:40px; z-index:900;}	
+
+#LblTotalNF { position:absolute; Left: 360px; Top: 184px; z-index:900;} 
+#TxtTotalNF_NotaFiscal { position:absolute; Left: 420px; Top: 183px; width:95px; text-align:right; z-index:900;}
+
+#LblDataEmissao{ position: absolute; left: 15px; top: 210px; z-index:900;} 
+#TxtDataEmissao_NotaFiscal{ position: absolute; left: 115px; top: 209px; width:80px; z-index:900;} 
+#BtnCalendarioDataEmissao{ position: absolute; left:203px; top: 209px; width: 24px; z-index:900;}
+
+#LblPrevisaoEntrega{ position: absolute; left: 406px; top: 210px; z-index:900;} 
+#TxtPrevisaoEntrega_NotaFiscal{ position: absolute; left: 510px; top: 209px; width:80px; z-index:900;} 
+#BtnCalendarioPrevisaoEntrega{ position: absolute; left:598px; top: 209px; width: 24px; z-index:900;}
+  
+ 
+#LblModeloNF{ position:absolute; Left: 15px; Top: 236px; z-index:900;}
+#DdlIdModeloNF_NotaFiscal{ position:absolute; Left: 115px; Top: 235px; width: 200px; z-index:900;}
+#LkbAtualizarModeloNF{position: absolute;top: 235px;left: 315px;float: left; z-index:900;}
+#LkbEditarModeloNF{position: absolute;top: 235px;left: 335px;float: left; z-index:900;}
+
+
+#LblVolume { position:absolute; Left: 15px; Top: 262px; z-index:900;} 
+#TxVVolumeTotal_NotaFiscal { position:absolute; Left: 115px; Top: 261px; width:100px; text-align:right; z-index:900;}
+#TxVVolumeTotal_NotaFiscal2 { position:absolute; Left: 115px; Top: 261px; width:100px; text-align:right; z-index:900;}
+#TxVVolumeTotal_NotaFiscal3 { position:absolute; Left: 115px; Top: 261px; width:100px; text-align:right; z-index:900;} 
+#TxVVolumeTotal_NotaFiscal4 { position:absolute; Left: 115px; Top: 261px; width:100px; text-align:right; z-index:900;} 
+#TxVVolumeTotal_NotaFiscal5 { position:absolute; Left: 115px; Top: 261px; width:100px; text-align:right; z-index:900;} 
+#TxtVolome6 { position:absolute; Left: 115px; Top: 261px; width:100px; text-align:right; z-index:900;} 
+#TxVVolumeTotal_NotaFiscal7 { position:absolute; Left: 115px; Top: 261px; width:100px; text-align:right; z-index:900;} 
+
+#LblPeso { position:absolute; Left: 265px; Top: 262px; z-index:900;} 
+#TxPPesoTotal_NotaFiscal { position:absolute; Left: 330px; Top: 261px; width:95px; text-align:right; z-index:900;} 
+#TxPPesoTotal_NotaFiscal2 { position:absolute; Left: 330px; Top: 261px; width:95px; text-align:right; z-index:900;} 
+#TxPPesoTotal_NotaFiscal3 { position:absolute; Left: 330px; Top: 261px; width:95px; text-align:right; z-index:900;} 
+#TxPPesoTotal_NotaFiscal4 { position:absolute; Left: 330px; Top: 261px; width:95px; text-align:right; z-index:900;} 
+#TxPPesoTotal_NotaFiscal5 { position:absolute; Left: 330px; Top: 261px; width:95px; text-align:right; z-index:900;}  
+
+#LblPesoCubado_NotaFiscal { position: absolute; top: 262px; left: 440px; z-index: 900; }
+#TxPPesoCubado_NotaFiscal { position: absolute; top: 261px; left: 530px; width: 95px; z-index: 900; }
+#BtnComporPesoCubado { position: absolute; top: 260px; left: 630px; z-index: 900}  
+
+#LblNatureza { position:absolute; Left: 15px; Top: 288px; z-index:900;} 
+#TxtCodNatureza_Natureza_NotaFiscal { position:absolute; Left: 115px; Top: 286px; width:78px; z-index:900;} 
+#TxtDescNatureza_Natureza_NotaFiscal { position:absolute; Left: 200px; Top: 286px; width: 383px; z-index:900;}
+#LkbAtualizarNatureza{position: absolute;top: 286px;left: 592px;float: left; z-index:900;}
+#LkbEditarNatureza{position: absolute;top: 288px;left: 612px;float: left; z-index:900;}
+
+#LblEspecie { position:absolute; Left: 15px; Top: 314px; z-index:900;} 
+#TxtCodEspecie_Especie_NotaFiscal { position:absolute; Left: 115px; Top: 312px; width:78px; z-index:900;} 
+#TxtDescEspecie_Especie_NotaFiscal { position:absolute; Left: 200px; Top: 312px; width: 383px; z-index:900;} 
+#LkbAtualizarEspecie{position: absolute;top: 312px;left: 592px;float: left; z-index:900;}
+#LkbEditarEspecie{position: absolute;top: 314px;left: 612px;float: left; z-index:900;}
+
+#LblLocalColeta{position: absolute; left: 15px; top: 340px; z-index:900;}
+#TxtCodMunicipio_MunicipioColeta_NotaFiscal{position: absolute; left: 115px; top: 339px; width:78px; z-index:900;}
+#TxtDescMunicipio_MunicipioColeta_NotaFiscal{position: absolute; left: 200px; top: 339px; width:345px; z-index:900;}
+#TxtUF_MunicipioColeta_NotaFiscal{position: absolute; left: 527px; top: 339px; width:20px; z-index:900;}
+#LkbAtualizarLocalColeta{position: absolute;top: 339px;left: 552px;float: left; z-index:900;}
+#LkbEditarLocalColeta{position: absolute;top: 340px;left: 572px;float: left; z-index:900;}
+
+#LblLocalEntrega{position: absolute; left: 15px; top: 366px; z-index:900;}
+#TxtCodMunicipio_MunicipioEntrega_NotaFiscal{position: absolute; left: 115px; top: 365px; width:78px; z-index:900;}
+#TxtDescMunicipio_MunicipioEntrega_NotaFiscal{position: absolute; left: 200px; top: 365px; width:345px; z-index:900;}
+#TxtUF_MunicipioEntrega_NotaFiscal{position: absolute; left: 527px; top: 365px; width:20px; z-index:900;}
+#LkbAtualizarEntrega{position: absolute;top: 365px;left: 552px;float: left; z-index:900;}
+#LkbEditarEntrega{position: absolute;top: 366px;left: 572px;float: left; z-index:900;}
+
+#LblCfopNota { position:absolute; Left: 15px; Top: 392px; z-index:900;}
+#TxtCodCFOP_CFOP_NotaFiscal { position:absolute; Left: 115px; Top: 392px; width:40px; z-index:900;}
+#TxtDescCFOP_CFOP_NotaFiscal { position:absolute; Left: 165px; Top: 392px; width:380px; z-index:900;}
+
+#LblNumPedido { position:absolute; Left: 15px; Top: 418px; z-index:900;}
+#TxtNumeroPedido_NotaFiscal { position:absolute; Left: 115px; Top: 417px; z-index:900;}
+#LblNCargaNF { position:absolute; Left: 275px; Top: 418px; z-index:900;}
+#TxtNumeroCarga_NotaFiscal { position:absolute; Left: 337px; Top: 417px; z-index:900;} 
+
+#LblChaveNFe { position:absolute; Left: 15px; Top: 444px; z-index:900;}
+#TxtChaveEletronicaNFe_NotaFiscal { position:absolute; Left: 115px; Top: 443px; width: 350px; z-index:900;}
+#DivChkInutilizada{ position: absolute; left: 15px; top: 466px; z-index:900;}
+
+
+#BtnSalvarNotaFiscal { position:absolute; Left: 480px; Top: 586px; font-size:11px; width:100px; z-index:900;} 
+#BtnSalvarNovoNotaFiscal { position:absolute; Left: 587px; Top: 586px; font-size:11px; width:100px; z-index:900;}
+#BtnAbortarNotaFiscal { position:absolute; Left: 689px; Top: 586px; font-size:11px; width:70px; z-index:900;}
+
+.ConsultaMin
+{
+	margin:0px;
+	padding:0px;
+	background-color:White;
+	color:#999999;
+	font-family:Arial, Sans-Serif;
+	font-size:12px; 
+	border:buttonshadow;
+	border-width:1px;
+	border-style:solid;
+	cursor:default;
+	list-style-type:none;
+	overflow:auto;
+	max-height: 77px;
+	z-index: 3000;
+}
+
+/* CSS DA IMPORTACAO DO XML DA NOTA */
+
+#DivLblMensagemImportacaoXML{	position: absolute;	left: 6px;	top: 25px;  height: 15px; width: 98.0%;	font-weight: bold;	text-align: center;	}
+#LblMensagemImportacaoXML{	font-family:Arial, Sans-Serif; font-size:13px;}		
+
+
+#DivImportarNotasXML{	position: absolute;	left: 6px;	top: 40px;  height: 15px; width: 98.0%;	font-weight: bold;	text-align: center;	background-color: #6699CC;}
+#LblImportarNotasXML{	color: #fff;}
+
+#LblFilialXML							{ position: absolute; left: 15px; top: 80px; }
+#DdlIdFilial_Filial_XML   			{ position: absolute; left: 115px; top: 79px; width: 326px; }
+#LkbAtualizarFilialXML				{ position: absolute; left: 445px; top: 79px; width: 19px; }
+#LkbEditarFilialXML					{ position: absolute; left: 466px; top: 79px; width: 19px; }
+
+#DivAtualizarDadosCadastrais        { position: absolute; left: 487px; top: 79px }
+
+#LblTipoNotaXML{ position:absolute; left:15px;	top:105px; }
+#DdlTipoNotaXML{ position:absolute; left:115px; top:104px; width: 200px; }
+
+#LblOperacaoFiscalXML{ position:absolute; left:300px;	top:105px; }
+#DdlOperacaoFiscalXML{ position:absolute; left:394px; top:104px; width: 270px; }
+
+#LblNaturezaXML{ position:absolute; left:15px;	top:131px; }
+#DdlIdNatureza_Natureza_XML{ position:absolute; left:115px; top:130px; width: 200px; }
+#LkbAtualizarNaturezaXML{position:absolute;left:315px;top:129px;}
+#LkbEditarNaturezaXML{position:absolute;left:335px;top:130px;}
+
+#LblEspecieXML{ position:absolute; left:395px;	 top:131px; }
+#DdlIdEspecie_Especie_XML{ position:absolute; left:444px;	top:130px; width: 200px; }
+#LkbAtualizarEspecieXML{position:absolute;left:645px;top:129px;}
+#LkbEditarEspecieXML{position:absolute;left:665px;top:130px;}
+
+#DivSelecao{	position: absolute;	left: 6px;	top: 160px;  height: 15px; width: 98.0%;	font-weight: bold;	text-align: center;	background-color: #6699CC;}
+#LblSelecao{	color: #fff;}
+
+#BtnListarXML { position:absolute; Left: 30px; Top: 590px; font-size:11px; width:150px; }  
+#LblListarXML { position: absolute; left: 200px; top: 590px; } 
+#BtnNovoImportacaoXML { position:absolute; Left: 590px; Top: 590px; font-size:11px; width:100px; }  
+#BtnCancelarImportacaoXML { position:absolute; Left: 704px; Top: 590px; font-size:11px; width:70px; }
+#TxtListagemArquivo{position: absolute; left: 30px; top: 225px; width:748px; height:350px;}
+
+/* CSS DA IMPORTACAO DO XML DA CT-E TERCEIRO */
+#DivLblMensagemImportacaoXMLCTeTerceiro {
+	position: absolute;
+	left: 6px;
+	top: 25px;
+	height: 15px;
+	width: 98.0%;
+	font-weight: bold;
+	text-align: center;
+}
+
+#LblMensagemImportacaoXMLCTeTerceiro {
+	font-family: Arial, Sans-Serif;
+	font-size: 13px;
+}
+
+
+#DivImportarNotasXMLCTeTerceiro {
+	position: absolute;
+	left: 6px;
+	top: 40px;
+	height: 15px;
+	width: 98.0%;
+	font-weight: bold;
+	text-align: center;
+	background-color: #6699CC;
+}
+
+#LblImportarNotasXMLCTeTerceiro {
+	color: #fff;
+}
+
+#LblFilialXMLCTeTerceiro {
+	position: absolute;
+	left: 15px;
+	top: 80px;
+}
+
+#DdlIdFilial_Filial_XMLCTeTerceiro {
+	position: absolute;
+	left: 115px;
+	top: 79px;
+	width: 326px;
+}
+
+#LkbAtualizarFilialXMLCTeTerceiro {
+	position: absolute;
+	left: 445px;
+	top: 79px;
+	width: 19px;
+}
+
+#LkbEditarFilialXMLCTeTerceiro {
+	position: absolute;
+	left: 466px;
+	top: 79px;
+	width: 19px;
+}
+
+#DivSelecaoCTeTerceiro {
+	position: absolute;
+	left: 6px;
+	top: 160px;
+	height: 15px;
+	width: 98.0%;
+	font-weight: bold;
+	text-align: center;
+	background-color: #6699CC;
+}
+
+#LblSelecaoCTeTerceiro {
+	color: #fff;
+}
+
+#BtnListarXMLCTeTerceiro {
+	position: absolute;
+	Left: 30px;
+	Top: 590px;
+	font-size: 11px;
+	width: 150px;
+}
+
+#LblListarXMLCTeTerceiro {
+	position: absolute;
+	left: 200px;
+	top: 590px;
+}
+
+#BtnNovoImportacaoXMLCTeTerceiro {
+	position: absolute;
+	Left: 590px;
+	Top: 590px;
+	font-size: 11px;
+	width: 100px;
+}
+
+#BtnCancelarImportacaoXMLCTeTerceiro {
+	position: absolute;
+	Left: 704px;
+	Top: 590px;
+	font-size: 11px;
+	width: 70px;
+}
+
+#TxtListagemArquivoCTeTerceiro {
+	position: absolute;
+	left: 30px;
+	top: 225px;
+	width: 748px;
+	height: 350px;
+}
+
+/* CSS DA ABA DE CONSULTA NOTA */
+
+#DivConsultarNotas{	position: absolute;	left: 6px;	top: 40px;  height: 15px; width: 98.0%;	font-weight: bold;	text-align: center;	background-color: #6699CC;}
+#LblConsultarNotas{	color: #fff;}
+
+#DivCabecalhoModal {position: absolute;left: 6px;top: 70px;width:98.0%;height: 45px;border: 1px solid #c0c0c0; background-color:#E8E8E8;}
+#LblTipoConsulta { position: absolute; left: 15px; top: 85px; }  
+#DdlTipoConsulta { position: absolute; left: 115px; top: 83px; width: 290px; } 
+
+#LblFilialConsulta							{ position: absolute; left: 15px; top: 131px; }
+#DdlIdFilial_Filial_NotaFiscalConsulta	{ position: absolute; left: 115px; top: 129px; width: 326px; }
+#LkbAtualizarFilialConsulta				{ position: absolute; left: 445px; top: 129px; width: 19px; }
+#LkbEditarFilialConsulta					{ position: absolute; left: 466px; top: 129px; width: 19px; }
+
+#LblNFConsulta { position:absolute; Left: 15px; Top: 157px; }  
+#TxtNumeroNF_NotaFiscalConsulta { position:absolute; Left: 115px; Top: 156px; width:80px; }  
+
+#LblDataEmissaoConsultaInicial{ position: absolute; left: 15px; top: 183px; } 
+#TxtDataEmissaoConsultaInicial{ position: absolute; left: 115px; top: 182px; width:80px; } 
+#BtnCalendarioConsultaDataEmissaoInicial{ position: absolute; left:203px; top: 182px; width: 24px; }
+
+#LblDataEmissaoConsultaFinal{ position: absolute; left: 406px; top: 183px; } 
+#TxtDataEmissaoConsultaFinal{ position: absolute; left: 510px; top: 182px; width:80px; } 
+#BtnCalendarioConsultaDataEmissaoFinal{ position: absolute; left:598px; top: 182px; width: 24px; }
+
+#LblCodRemetenteConsulta{ position: absolute; left: 15px; top: 209px; }
+#TxtCodCliente_Remetente_NotaFiscalConsulta{ position: absolute; left: 115px; top: 208px; width: 78px; }
+#TxtNome_Remetente_NotaFiscalConsulta{ position: absolute; left: 203px; top: 208px; width: 410px;}
+#TxtCnpjCpf_Remetente_NotaFiscalConsulta{ position: absolute; left: 500px; top: 208px; width: 115px; z-index:5000;OVERFLOW-Y: auto; }
+#LkbAtualizarRemetenteConsulta{ position: absolute; left: 620px; top: 208px; width: 19px; z-index:5000; OVERFLOW-Y: auto; }
+#LkbEditarRemetenteConsulta{ position: absolute; left: 640px; top: 208px; width: 19px; z-index:5000; OVERFLOW-Y: auto; }
+
+#LblCodDestinatarioConsulta{ position: absolute; left: 15px; top: 235px; }
+#TxtCodCliente_Destinatario_NotaFiscalConsulta{ position: absolute; left: 115px; top: 234px; width: 78px; }
+#TxtNome_Destinatario_NotaFiscalConsulta{ position: absolute; left: 203px; top: 234px; width: 410px; }
+#TxtCnpjCpf_Destinatario_NotaFiscalConsulta{ position: absolute; left: 500px; top: 234px; width: 115px;}
+#LkbAtualizarDestinatarioConsulta{position: absolute; left:620px; top: 234px; float: left; z-index:1000;OVERFLOW-Y: auto; }
+#LkbEditarDestinatarioConsulta{position: absolute; left: 640px; top: 234px; float: left; z-index:1000;OVERFLOW-Y: auto; }
+
+#LblLocalColetaConsulta{position: absolute; left: 15px; top: 261px;}
+#TxtCodMunicipio_MunicipioColeta_NotaFiscalConsulta{position: absolute; left: 115px; top: 260px; width:78px;}
+#TxtDescMunicipio_MunicipioColeta_NotaFiscalConsulta{position: absolute; left: 200px; top: 260px; width:345px;}
+#TxtUF_MunicipioColeta_NotaFiscalConsulta{position: absolute; left: 527px; top: 260px; width:20px;}
+#LkbAtualizarLocalColetaConsulta{position: absolute;top: 260px;left: 552px;float: left}
+#LkbEditarLocalColetaConsulta{position: absolute;top: 260px;left: 572px;float: left}
+
+#LblLocalEntregaConsulta{position: absolute; left: 15px; top: 287px;}
+#TxtCodMunicipio_MunicipioEntrega_NotaFiscalConsulta{position: absolute; left: 115px; top: 286px; width:78px;}
+#TxtDescMunicipio_MunicipioEntrega_NotaFiscalConsulta{position: absolute; left: 200px; top: 286px; width:345px;}
+#TxtUF_MunicipioEntrega_NotaFiscalConsulta{position: absolute; left: 527px; top: 286px; width:20px;}
+#LkbAtualizarEntregaConsulta{position: absolute;top: 286px;left: 552px;float: left}
+#LkbEditarEntregaConsulta{position: absolute;top: 286px;left: 572px;float: left}
+
+
+#LblNaturezaConsulta { position:absolute; Left: 15px; Top: 313px; } 
+#TxtCodNatureza_Natureza_NotaFiscalConsulta { position:absolute; Left: 115px; Top: 312px; width:78px; } 
+#TxtDescNatureza_Natureza_NotaFiscalConsulta { position:absolute; Left: 200px; Top: 312px; width: 383px; }
+#LkbAtualizarNaturezaConsulta{position: absolute;top: 312px;left: 592px;float: left}
+#LkbEditarNaturezaConsulta{position: absolute;top: 312px;left: 612px;float: left}
+
+#LblEspecieConsulta { position:absolute; Left: 15px; Top: 339px; } 
+#TxtCodEspecie_Especie_NotaFiscalConsulta { position:absolute; Left: 115px; Top: 338px; width:78px; } 
+#TxtDescEspecie_Especie_NotaFiscalConsulta { position:absolute; Left: 200px; Top: 338px; width: 383px; } 
+#LkbAtualizarEspecieConsulta{position: absolute;top: 338px;left: 592px;float: left}
+#LkbEditarEspecieConsulta{position: absolute;top: 338px;left: 612px;float: left}
+
+#LblChaveNFeConsulta { position:absolute; Left: 15px; Top: 365px; } 
+#TxtChaveEletronicaNFe_NotaFiscalConsulta { position:absolute; Left: 115px; Top: 364px; width: 350px; }  
+#BtnConsultarNotaFiscal { position:absolute; Left: 400px; Top: 466px; font-size:11px; width:100px; }  
+#BtnLimparConsultaNF { position:absolute; Left: 502px; Top: 466px; font-size:11px; width:100px; }  
+#BtnCancelarConsulta { position:absolute; Left: 604px; Top: 466px; font-size:11px; width:70px; }
+
+
+
+
+#LblCifFobConsulta{ position: absolute; left: 15px; top: 391px;}
+#DdlCifFobConsulta{	position: absolute;	left: 115px;	top: 391px;	width: 100px;}
+
+#LblNumeroCargaNF {	position: absolute;	Left: 15px;	Top: 418px;} 
+#TxtNumeroCarga_NotaFiscalConsulta { position:absolute; Left: 115px; Top: 419px; width:80px; }
+
+
+
+/*########## MODAL Composição de Peso Cubado ##########*/
+#PnlComposicaoPesoCubado { width:285px; height:200px; background-color: #f3f3f3; border: 2px solid #D8D8D8; }
+#LblModalComposicaoPesoCubado {position: absolute; left: 55px; }
+#LblAlturaComposicao { position:absolute; left:10px; top:40px;	}
+#TxtAlturaComposicao { position:absolute; left:165px; top:39px; width: 100px; }
+#LblLarguraComposicao {	position:absolute; left:10px; top:66px; }
+#TxtLarguraComposicao {	position:absolute; left:165px; top:65px; width:100px; }
+#LblComprimentoComposicao {	position:absolute; left:10px; top:92px; }
+#TxtComprimentoComposicao {	position:absolute; left:165px; top:91px; width:100px; }
+#LblFatorCubagenComposicao { position:absolute; left:10px; top:118px; }
+#TxtFatorCubagenComposicao { position:absolute; left:165px; top:117px; width:100px; }
+#LblVolumeComposicao { position:absolute; left:10px; top:144px; }
+#TxtVolumeComposicao { position:absolute; left:165px; top:143px; width:100px; }
+#BtnConfirmarComposicao  { position:absolute; left:85px; top:170px; width:100px; }
+/*########## MODAL Composição de Peso Cubado ##########*/
+
+
+
+/*########## MODAL Composição de Peso Cubado ##########*/
+#PnlTabComponentes { width:700px; height:320px; background-color: #f3f3f3; border: 2px solid #D8D8D8; left:-60px;}
+#LblModalCubagem  {position: absolute; left: 10px; }
+#DivConhecimentoComponentesCubagem{ position:absolute; height: 200px; top:100px; overflow-y: auto; overflow-x:auto; width:675px; border: 1px solid #D8D8D8 ; left:10px}
+#GvwConhecimentoComponentesCubagem { left:20px; top:100px; right:10px;}
+#BtnAdicionaComponente { position:absolute; left:130px; top:50px; width:80px; }
+#BtnRemoveComponente { position:absolute; left:235px; top:50px; width:80px; }
+#LblBotoesAddRemove { position:absolute; left:10px; top:50px; }
+#BtnSalvarCubagem {position: absolute; left: 190px; width:60px; top:3px; }
+#BtnFecharModalCubagem {position: absolute; left: 265px; width:60px; top:3px;}
+#BtnCalcularCubagem{position: absolute; left: 506px; width:80px; top:310px; }
+#BtnCalcularComponentePesoCubado{position: absolute; left: 605px; width:80px; top:75px; }
+
+
+
+/*########## MODAL Composição de Peso Cubado ##########*/
+
+#DivChkConsiderarCubagemMercadoriaPadraoTabelaFreteFracionadaModelo05 {position: absolute; left:25px;	top: 605px;  height: 15px;}
+#DivBtnGerarConhecimento{	position: absolute;	left: 654px;	top: 590px;  height: 15px;}
+
+
+/*########## MODAL Tabela de Frete ##########*/
+#PnlTabTabelaFrete { width:760px; height:390px; background-color: #f3f3f3; border: 2px solid #D8D8D8; left:-60px;}
+
+#LblMensagemModalTabelaFrete{position:absolute; top:6.5%; left:31%;}
+#DivListaGridTabelaFrete{position:absolute; height: 39%; top:11.5%; overflow-y: auto; overflow-x:auto; left:0.5%; width:99%; 
+ border: 1px solid #D8D8D8; }
+#GvwListaTabelaFrete {left:20px; top:100px; right:10px;}
+#BtnFecharModalTabelaFrete {position: absolute; left: 90%; width:8%; top:3px;}
+
+#BtnSelecionarTabelaFrete {position:absolute; left:45%; top:54%;}
+#BtnRemoverTabelaFrete {position:absolute; left:49%; top:54%;}
+
+#DivListaGridTabelaFreteSelecionada {position:absolute; height:33%; top:61%; overflow-y: auto; overflow-x:auto; left:0.5%; 
+ width:99%; border: 1px solid #D8D8D8;}
+
+/* CSS DA ABA DE CONSULTA CTE TERCEIRO */
+#DivConsultarCteTerceiro{	position: absolute;	left: 6px;	top: 40px;  height: 15px; width: 98.0%;	font-weight: bold;	text-align: center;	background-color: #6699CC;}
+#LblConsultarCteTerceiro{	color: #fff;}
+#DivCabecalhoModalCTETerceiro {position: absolute;left: 6px;top: 70px;width:98.0%;height: 45px;border: 1px solid #c0c0c0; background-color:#E8E8E8;}
+#LblTipoConsultaCteTerceiro { position: absolute; left: 15px; top: 85px; } 
+#DdlTipoConsultaCteTerceiro { position: absolute; left: 115px; top: 83px; width: 290px; } 
+#LblFilialConsultaCteTerceiro	{ position: absolute; left: 15px; top: 131px; }
+#DdlIdFilial_Filial_CteTerceiroConsulta	{ position: absolute; left: 115px; top: 129px; width: 326px; }
+#LblCTETerceiroConsulta { position:absolute; Left: 15px; Top: 157px; }  
+#TxtNumeroCTeTerceiro_CteTerceiroConsulta { position:absolute; Left: 115px; Top: 156px; width:80px; }
+#LblDataEmissaoConsultaInicialCteTerceiro{ position: absolute; left: 15px; top: 183px; } 
+#TxtDataEmissaoConsultaInicialCteTerceiro{ position: absolute; left: 115px; top: 182px; width:80px; } 
+#BtnCalendarioConsultaDataEmissaoInicialCteTerceiro{ position: absolute; left:203px; top: 182px; width: 24px; }
+
+#LblCodEmitenteConsultaCteTerceiro{ position: absolute; left: 15px; top: 209px; }
+#TxtCodCliente_Emitente_CteTerceiroConsulta{ position: absolute; left: 115px; top: 208px; width: 78px; }
+#TxtNome_Emitente_CteTerceiroConsulta{ position: absolute; left: 203px; top: 208px; width: 410px;}
+#TxtCnpjCpf_Emitente_CteTerceiroConsulta{ position: absolute; left: 500px; top: 208px; width: 115px; z-index:5000;OVERFLOW-Y: auto; }
+
+
+#LblCodRemetenteConsultaCteTerceiro{ position: absolute; left: 15px; top: 235px; }
+#TxtCodCliente_Remetente_CteTerceiroConsulta{ position: absolute; left: 115px; top: 234px; width: 78px; }
+#TxtNome_Remetente_CteTerceiroConsulta{ position: absolute; left: 203px; top: 234px; width: 410px; }
+#TxtCnpjCpf_Remetente_CteTerceiroConsulta{ position: absolute; left: 500px; top: 234px; width: 115px;}
+
+#LblCodDestinatarioConsultaCteTerceiro{position: absolute; left: 15px; top: 261px;}
+#TxtCodCliente_Destinatario_CteTerceiroConsulta{ position: absolute; left: 115px; top: 261px; width: 78px; }
+#TxtNome_Destinatario_CteTerceiroConsulta{ position: absolute; left: 203px; top: 261px; width: 410px; }
+#TxtCnpjCpf_Destinatario_CteTerceiroConsulta{position: absolute; left: 500px; top: 261px; width:115px;}
+
+#LblLocalColetaConsultaCteTerceiro{position: absolute; left: 15px; top: 287px;}
+#TxtCodMunicipio_MunicipioColeta_CteTerceiroConsulta{position: absolute; left: 115px; top: 286px; width:78px;}
+#TxtDescMunicipio_MunicipioColeta_CteTerceiroConsulta{position: absolute; left: 200px; top: 286px; width:345px;}
+#TxtUF_MunicipioColeta_CteTerceiroConsulta{position: absolute; left: 527px; top: 286px; width:20px;}
+
+
+#LblLocalEntregaConsultaCteTerceiro{position: absolute; left: 15px; top:  313px;}
+#TxtCodMunicipio_MunicipioEntrega_CteTerceiroConsulta{position: absolute; left: 115px; top:  313px; width:78px;}
+#TxtDescMunicipio_MunicipioEntrega_CteTerceiroConsulta{position: absolute; left: 200px; top:  313px; width:345px;}
+#TxtUF_MunicipioEntrega_CteTerceiroConsulta{position: absolute; left: 527px; top:  313px; width:20px;}
+
+
+
+#LblChaveCTeTerceiroConsulta { position:absolute; Left: 15px; Top: 340px; } 
+#TxtChaveEletronicaCTeTerceiro_CTeTerceiroConsulta { position:absolute; Left: 115px; Top: 340px; width: 350px; } 
+
+#LblNumeroCarga {	position: absolute;	Left: 15px;	Top: 367px;} 
+#TxtNumeroCarga_CteTerceiroConsulta { position:absolute; Left: 115px; Top: 367px; width:80px; }
+
+
+#BtnConsultarCTeTerceiro { position:absolute; Left: 400px; Top: 466px; font-size:11px; width:100px; }  
+#BtnLimparConsultaCTeTerceiro { position:absolute; Left: 502px; Top: 466px; font-size:11px; width:100px; }  
+#BtnCancelarConsultaCTeTerceiro { position:absolute; Left: 604px; Top: 466px; font-size:11px; width:70px; }
